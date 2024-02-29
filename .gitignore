@@ -1,0 +1,19 @@
+# Python
+*.pyc
+__pycache__/
+venv/
+.env
+/.vscode
+
+# Streamlit
+.streamlit/
+
+# Gradio
+gradio/
+
+# Compiled Python files
+*.pyo
+
+# Setuptools output
+build/
+dist/
