@@ -10,7 +10,7 @@ def generate_password(length):
 
 
 st.title("Alphanumeric Password Generator")
-n_passwords = st.slider("Enter the number of passwords to generate:", 1, 10)
+n_passwords = st.slider("Enter the number of passwords to generate:", 1, 25)
 length = st.slider("Select password length:", 6, 20)
 
 if st.button("Generate Passwords"):
